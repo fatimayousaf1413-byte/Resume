@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    color: #101010;
+    padding: 30px 410px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resumee {
+    background: #fcf355;
+    padding: 30px;
+}
+
+.top {
+    display: flex;
+    gap: 40px;
+}
+
+.top div h4{
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.top div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.top div p{
+    line-height: 25px;
+}
+
+.bottom {
+    margin: 35px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    font-size: 11px;
+}
+
+.left , .right{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 10px;
+}
+
+.p-tag{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.left-heading{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.details {
+    display: flex;
+    gap: 45px;
+}
+
+.details ul {
+    list-style: none;
+}
+
+.details ul li{
+    margin-bottom: 7px;
+}
+
+.lang {
+    gap: 100px;
+}
+
+
